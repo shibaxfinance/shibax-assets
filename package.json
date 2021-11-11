@@ -1,0 +1,19 @@
+{
+  "name": "@shibax/assets",
+  "version": "0.1.2",
+  "description": "Shibax assets",
+  "author": "Shibax",
+  "license": "MIT",
+  "scripts": {
+    "clean": "svgo --multipass --disable=removeViewBox,cleanupIDs $(globby **/*.svg)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shibaxfinance/shibax-assets.git"
+  },
+  "homepage": "https://github.com/Shibaxfinance/shibax-assets",
+  "devDependencies": {
+    "globby-cli": "^1.0.1",
+    "svgo": "^1.3.2"
+  }
+}
